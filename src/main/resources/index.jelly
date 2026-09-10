@@ -1,0 +1,5 @@
+<?jelly escape-by-default='true'?>
+<div>
+  Pipeline step <code>millCdpRun</code>: remoting POST on the allocated agent
+  (<code>HttpURLConnection</code>, no <code>sh</code>). Intended for a loopback mill daemon.
+</div>
