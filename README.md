@@ -39,9 +39,9 @@ Artifact: `target/mill-cdp-run.hpi`.
 
 ## Install
 
-Upload the HPI in **Manage Jenkins → Plugins**, or `dynamicLoad` the `.jpi` on the controller. Requires [Pipeline: Step API](https://plugins.jenkins.io/workflow-step-api).
+Upload `target/mill-cdp-run.hpi` in **Manage Jenkins → Plugins**. Requires [Pipeline: Step API](https://plugins.jenkins.io/workflow-step-api). Updating an already-active plugin needs a controller restart — `dynamicLoad` will not replace it.
 
-Deploy to [jenkins.qa.guru](https://jenkins.qa.guru) is `apply-mill-cdp-run-plugin.sh` in `jenkins-qa-guru-home`: package, copy `.jpi`, restart the controller. `dynamicLoad` cannot replace an already-active plugin.
+[jenkins.qa.guru](https://jenkins.qa.guru): `jenkins-qa-guru-home/dev/scripts/apply-mill-cdp-run-plugin.sh` (package, copy `.jpi`, restart).
 
 ## License
 

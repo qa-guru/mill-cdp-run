@@ -35,6 +35,7 @@
   </developers>
   <properties>
     <jenkins.version>2.479.3</jenkins.version>
+    <gitHubRepo>qa-guru/mill-cdp-run</gitHubRepo>
   </properties>
   <dependencyManagement>
     <dependencies>
